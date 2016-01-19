@@ -9,17 +9,39 @@ $(function() {
 
 
 // control flow conditional for determining appropriate destinations
-
+    $(".destination").hide();
 //question 1 conditional
-// if (array has "hot" in it) {
-//   $('.cold').show();
-// } else if (array has cold in it) {
-//   $('.hot').show();
-// }
+    if (question1 === "hot") {
+      $('.hot').show();
+    } else if (question1 === "cold") {
+      $('.cold').show();
+    }
 
 //question 2 conditional
+    if (question2 === "city") {
+      $('.city').show();
+    } else if (question2 === "country") {
+      $('.country').show();
+    }
+
 //question 3 conditional
+    if (question3 === "sun") {
+      $('.sun').show();
+    } else if (question3 === "rain") {
+      $('.rain').show();
+    }
+
 //question 4 conditional
+    if (question4 === "english") {
+      $('.english').show();
+    } else if (question4 === "foreign") {
+      $('.foreign').show();
+    }
 //question 5 conditional
+    if(question5 === "budget") {
+      $('.budget').show();
+    } else if (question5 === "luxury") {
+      $('.luxury').show();
+    }
   });
 });
