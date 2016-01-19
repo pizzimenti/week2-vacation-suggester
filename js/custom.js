@@ -1,3 +1,5 @@
+$(function() {
+  $('#questions form').submit(function(event) {
 
 
 
@@ -16,3 +18,5 @@ if (array has "hot" in it) {
 //question 3 conditional
 //question 4 conditional
 //question 5 conditional
+  });
+});
