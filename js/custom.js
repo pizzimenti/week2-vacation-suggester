@@ -8,9 +8,6 @@ $(function() {
     var question5 = $("input#question5").val().toLowerCase();
 
 
-console.log(question3)
-
-
 // control flow conditional for determining appropriate destinations
 
 //question 1 conditional
