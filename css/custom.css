@@ -14,6 +14,10 @@
   display: none;
 }
 
+#destinations {
+  text-align: center;
+}
+
 label {
   margin-top: 7px;
 }
