@@ -15,3 +15,7 @@ h2 {
 #destinations {
   display: none;
 }
+
+label {
+  margin-top: 7px;
+}
